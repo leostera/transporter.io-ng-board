@@ -7,7 +7,7 @@ module.exports = {
 
   serveFiles: function ( opts ) {
     if(this.server) {
-      console.error('dispatcher.io-ng-board: Oops! Already serving...');
+      console.error('transporter.io-ng-board: Oops! Already serving...');
       return;
     }
 
@@ -45,7 +45,7 @@ module.exports = {
 
   listen: function ( port ) {
     if(this.server) {
-      console.error('dispatcher.io-ng-board: Oops! Already listening...');
+      console.error('transporter.io-ng-board: Oops! Already listening...');
       return;
     }
     this.server = io.listen(port);

@@ -1,5 +1,5 @@
 {
-  "name": "dispatcher.io-ng-board",
+  "name": "transporter.io-ng-board",
   "version": "0.0.2",
   "description": "ng-board transport",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leostera/dispatcher.io-ng-board.git"
+    "url": "https://github.com/leostera/transporter.io-ng-board.git"
   },
   "keywords": [
     "ng-board",
     "transport",
-    "dispatcher",
+    "transporter",
     "websocket",
     "angularjs"
   ],
   "author": "Leandro Oster <sayhi@leostera.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leostera/dispatcher.io-ng-board/issues"
+    "url": "https://github.com/leostera/transporter.io-ng-board/issues"
   },
   "dependencies": {
     "async": "~0.2.9",
